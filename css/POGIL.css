@@ -1,0 +1,74 @@
+﻿.Objective {
+	font-weight:bold;
+	color:purple;
+}
+
+.Assessment {
+	font-weight:bold;
+	color: green;
+}
+.Assessment a {
+    color:inherit;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.Assess_Solution_Step {
+	font-weight:bold;
+	color: blue;	
+}
+
+.Assess_Solution_Learning {
+	font-weight:bold;
+	color:orange;
+}
+
+/* Used on the div fluid-container so that the page will print right */
+.PaperWidth {
+    width:8.5in;
+    border: 3px solid black;
+}
+
+.ExpressionToEval {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ExpressionNextStep {
+    /*background:url(img/DownArrow.png) repeat top left; */
+    display: inline-block;
+    background-color: lightgreen;
+    border-style:double;
+    border-radius: 100px;
+    padding:5px;
+}
+.ExpressionChangedPart {
+    font-weight: bold;
+    background-color: yellow;
+    border-style:dashed;
+    padding: 5px;
+}
+
+.DesiredAnswer,
+.ExprEvalVariableValue {
+    color:orange;
+    float:right;
+    font-size:12pt;
+}
+
+/* Change this so that there's some space for students to write their answers in, in the print version */
+.CriticalThinkingQuestions li {
+    margin-bottom: 2em;
+}
+body {
+    font-size:12pt;
+}
+.ExpressionIntermediateSteps {
+    font-size:14pt;
+}
+
+
+/*YHL = YellowHighLight */
+.YHL {
+    background-color: yellow;
+}
